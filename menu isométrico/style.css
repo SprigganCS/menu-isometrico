@@ -23,4 +23,29 @@ ul li{
     list-style: none;
     width: 200px;
     background: rgb(41, 41, 41);
+    padding: 15px;
+}
+ul li::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -40px;
+    width: 40px;
+    height: 100%;
+    background: rgb(24, 24, 24);
+    transform-origin: right;
+    transform: skewY(45deg);
+}
+
+ul li a{
+    text-decoration: none;
+    color: #999;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    transition: 0.5s;
+}
+
+ul li:hover a{
+    color: #fff;
 }
