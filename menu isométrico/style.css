@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+}	
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+ul{
+    position: relative;
+    transform: skewY(-15deg);
+}
+
+ul li{
+    position: relative;
+    list-style: none;
+    width: 200px;
+    background: rgb(41, 41, 41);
+}
